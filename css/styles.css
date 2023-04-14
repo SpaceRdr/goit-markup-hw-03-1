@@ -267,9 +267,13 @@ body {
   /* max-width: 264px; */
   height: 112px;
   margin-bottom: 8px;
+  background-image: url(../images/wd-strategy-radar.svg);
   background-color: var(--color-cloud);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 64px;
   text-align: center;
-  border: 0;
+  border: none;
   border-radius: 4px;
 }
 
