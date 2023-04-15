@@ -258,6 +258,12 @@ body {
   margin-right: 24px;
 }
 
+.icon-wd {
+  width: 64px;
+  height: 64px;
+  /* color: currentColor; */
+}
+
 .cadr-itm:nth-last-child(-n+1) {
   margin-right: 0;
 }
@@ -276,10 +282,6 @@ body {
   text-align: center;
   border: none;
   border-radius: 4px;
-}
-
-.icon-wd {
-   /* color: currentColor; */
 }
 
 
