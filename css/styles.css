@@ -183,7 +183,8 @@ body {
 .icn-scnet-rd:hover,
 .icn-scnet-rd:focus {
   background-color: var(--title-text-color-bs);
-  fill: var(--color-white);
+  fill: greenyellow
+  /* var(--color-white); */
 }
 
 .icn-pic {
