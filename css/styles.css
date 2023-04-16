@@ -84,6 +84,10 @@ body {
   padding-top: 120px;
 }
 
+.section-site-pdng.bkg-cloud {
+  background-color: var(--color-cloud);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -118,8 +122,12 @@ body {
   text-transform: capitalize;
 }
 
+.txt-title-h-two.mrg-dn {
+  margin-bottom: 72px;
+}
+
 .txt-title-h-three {
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
   color: var(--title-text-color-basic);
   font-weight: 500;
   font-size: 20px;
@@ -139,6 +147,45 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em; */
 }
+
+.icn-scnet-blok {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  align-content:center;
+
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+}
+
+.icn-scnet-rd {
+  /* display: inline-block; */
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items:center;
+  align-content:center;
+
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  border-radius: 50%;
+  background-color: var(--logo-txt-color-iris);
+}
+
+.icn-pic {
+  width: 16px;
+  height: 16px;
+}
+
+
 
 /* End Global project settings */
 
@@ -251,6 +298,11 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.btn-slog:hover,
+.btn-slog:focus {
+  background-color: var(--color-target);
+}
+
 /* Cards Style */
 
 .cadr-itm {
@@ -259,6 +311,14 @@ body {
   padding: 0;
   width: calc((100%-72px) / 4);
   margin-right: 24px;
+}
+
+.cadr-itm.adt-set {
+  padding-bottom: 32px;
+  background-color: var(--color-white);
+  text-align: center;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .cadr-itm:nth-last-child(-n + 1) {
@@ -282,9 +342,8 @@ body {
   width: 64px;
   height: 64px;
   /* color: currentColor; */
+  background: none;
 }
-
-
 
 .wd-ico-place {
   display: block;
@@ -302,7 +361,44 @@ body {
 }
 
 .card-cont {
+  background-color: var(--color-white);
 }
+
+.card-cont.mgr-dn {
+  margin-bottom: 0.5rem;
+}
+
+
+.card-foto-sing {
+  max-width: 360px;
+  margin-right: 24px;
+  flex-basis: calc((100%-48px) / 3);
+}
+
+.card-foto-sing:nth-last-child(-n+1) {
+  margin-right: 0;
+}
+
+.rest-img-blok {
+  display: block;
+  margin: 0;
+}
+
+.rest-img-blok.mrg-dn {
+  margin-bottom: 32px;
+}
+
+ /* Section 3 Our Team */
+
+
+/* max-width: 360px;
+  flex-basis: calc((100%-48px) / 3);
+  margin-right: 24px;
+  margin-bottom: 48px;
+  padding-bottom: 32px;
+  border: 1px solid var(--color-cornf-lower); */
+
+
 
 /* Old style ---------------- */
 
