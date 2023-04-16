@@ -180,7 +180,10 @@ body {
   background-color: var(--logo-txt-color-iris);
 }
 
-
+.icn-scnet-rd:hover,
+.icn-scnet-rd:focus {
+  background-color: var(--title-text-color-bs);
+}
 
 .icn-pic {
   width: 16px;
@@ -188,18 +191,11 @@ body {
   fill: var(--color-cloud);
 }
 
-.icn-scnet-rd:hover,
-.icn-scnet-rd:focus,
+
 .icn-pic:hover,
 .icn-pic:focus {
-  background-color: var(--color-white);
-  fill: var(--body-text-color);
+  fill: var(--color-white);
 }
-
-/* .icn-pic:hover,
-.icn-pic:focus {
-  fill: var(--body-text-color);
-} */
 
 
 
