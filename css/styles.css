@@ -183,7 +183,7 @@ body {
 .icn-pic {
   width: 16px;
   height: 16px;
-  fill: var(--color-cornf-lower);
+  fill: var(--color-cloud);
 }
 
 .icn-pic:hover,
