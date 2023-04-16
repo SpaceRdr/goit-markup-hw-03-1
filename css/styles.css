@@ -183,6 +183,12 @@ body {
 .icn-pic {
   width: 16px;
   height: 16px;
+  fill: var(--color-cornf-lower);
+}
+
+.icn-pic:hover,
+.icn-pic:focus {
+  fill: var(--body-text-color);
 }
 
 
