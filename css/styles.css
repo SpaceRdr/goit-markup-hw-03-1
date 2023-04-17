@@ -415,7 +415,11 @@ body {
 }
 
 .partn-lg {
-  display: block;
+  /* display: block; */
+  display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
   margin: 0;
   padding: 0;
   margin-right: 24px;
@@ -433,6 +437,7 @@ body {
 }
 
 .icn-part {
+  display: block;
   width: 104px;
   height: 56px;
   fill: var(--color-lt-slate);
