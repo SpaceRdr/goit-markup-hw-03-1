@@ -18,6 +18,8 @@
   --color-cornf-lower: #e7e9fc;
 
   --color-target: #404bbf;
+  /* LIGHT SLATE to partner logo*/
+  --color-lt-slate: #8E8F99;
 }
 
 /* border-box*/
@@ -203,8 +205,6 @@ body {
   /* fill: var(--color-white); */
 }
 
-
-
 /* End Global project settings */
 
 /* Logo */
@@ -343,6 +343,7 @@ body {
   margin-right: 0;
 }
 
+/* Icon styles */
 .icon-pls {
   display: flex;
   justify-content: center;
@@ -378,6 +379,8 @@ body {
   border-radius: 4px;
 }
 
+/* Card & Foto Styles */
+
 .card-cont {
   background-color: var(--color-white);
 }
@@ -405,6 +408,30 @@ body {
   margin-bottom: 32px;
 }
 
+.partn-list {
+  justify-content: space-between;
+  /* align-items:center; */
+  align-content:center;
+}
+
+.partn-lg {
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-right: 24px;
+  /* min-width: 168px; */
+  width: calc((100%-120px) / 6);
+  height: 88px;
+
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lt-slate);
+  border-radius: 4px;
+}
+
+.partn-lg:nth-last-child(-n+1) {
+  margin-right: 0;
+}
+
  /* Section 3 Our Team */
 
 
@@ -417,7 +444,7 @@ body {
 
 
 
-/* Old style ---------------- */
+/* ------Old style ---------------- */
 
 .heder-bord {
   border-bottom: 1px solid var(--color-cornf-lower);
