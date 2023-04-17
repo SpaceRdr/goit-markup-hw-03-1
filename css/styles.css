@@ -444,6 +444,10 @@ body {
   fill: var(--color-lt-slate);
 }
 
+.icn-part:hover {
+  fill: var(--color-target);
+}
+
  /* Section 3 Our Team */
 
 
