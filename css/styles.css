@@ -432,6 +432,12 @@ body {
   margin-right: 0;
 }
 
+.icn-part {
+  width: 104px;
+  height: 56px;
+  fill: var(--color-lt-slate);
+}
+
  /* Section 3 Our Team */
 
 
