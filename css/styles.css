@@ -225,6 +225,12 @@ body {
   text-transform: uppercase;
 }
 
+.txt-link-logo.footer-lg {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 18px;
+}
+
 .txt-link-logo-dark {
   color: var(--title-text-color-bs);
 }
@@ -801,16 +807,26 @@ body {
 .footer-set {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: var(--title-text-color-basic);
+  background-color: var(--title-text-color-bs);
   color: var(--color-cornf-lower);
 }
 
-.footer-parag {
+.footer-lg-blok {
   margin: 0;
   padding: 0;
   width: 264px;
+}
+
+
+.footer-parag {
+  /* width: 264px; */
   color: var(--color-cloud);
 }
+
+
+
+
+
 
 .footer-parag.logo-mrg {
   padding-bottom: 0;
@@ -819,8 +835,7 @@ body {
 .footer-link-logos {
   display: block;
   margin: 0;
-  margin-bottom: 16px;
-  /* padding-top: 100px; */
+  margin-bottom: 18px;
   width: 264px;
 
   color: var(--radio-buttom-text-color);
