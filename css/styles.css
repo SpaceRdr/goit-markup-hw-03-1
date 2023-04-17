@@ -182,24 +182,24 @@ body {
   border-radius: 50%;
 }
 
-/* .icn-scnet-rd:hover,
+.icn-scnet-rd:hover,
 .icn-scnet-rd:focus {
   background-color: var(--title-text-color-bs);
-} */
+}
 
 .icn-pic {
-  width: 40px;
-  height: 40px;
+  width: 16px;
+  height: 16px;
   fill: var(--color-cloud);
-  background-color: var(--logo-txt-color-iris);
-  border: none;
-  border-radius: 50%;
+  /* background-color: var(--logo-txt-color-iris); */
+  /* border: none;
+  border-radius: 50%; */
 }
 
 .icn-pic:hover,
 .icn-pic:focus {
   fill: greenyellow;
-  background-color: var(--title-text-color-bs);
+  /* background-color: var(--title-text-color-bs); */
   /* fill: var(--color-white); */
 }
 
