@@ -419,6 +419,7 @@ body {
   max-width: 360px;
   margin-right: 24px;
   flex-basis: calc((100%-48px) / 3);
+  border: 1px solid var(--color-cornf-lower);
 }
 
 .card-foto-sing:nth-last-child(-n+1) {
