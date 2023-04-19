@@ -119,6 +119,8 @@ body {
   /* or 107% */
   letter-spacing: 0.02em;
   text-align: center;
+
+  /* z-index: 1; */
 }
 
 .txt-title-h-two {
@@ -305,23 +307,64 @@ body {
   /* height: 600px; */
   padding-top: 188px;
   padding-bottom: 188px;
+
+  position: relative;
+  overflow: hidden;
   
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.5) 20%,
       rgba(0, 0, 0, 0.8) 80%,
       rgba(0, 0, 0, 0.5)
     ),
-    url(../images/people-office-01.jpg);
+    url(../images/people-office-01.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: var(--body-text-color);
 }
 
+.bk-frame-slog {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+  height: 600px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) 20%,
+      rgba(0, 0, 0, 0.8) 80%,
+      rgba(0, 0, 0, 0.5));
+
+    z-index: 1;
+}
+
+.section-slog .img-bk-slog {
+  display: block;
+  position: absolute;
+  
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 0;
+}
+
 .blok-slog {
   display: block;
   box-sizing: border-box;
+
+  position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+  /* left: 0;  
+  top: 0; */
 
   margin-left: auto;
   margin-right: auto;
@@ -347,7 +390,10 @@ body {
   background: var(--logo-txt-color-iris);
   border: transparent;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 
+    0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  z-index: 2;
 }
 
 .btn-slog:hover,
